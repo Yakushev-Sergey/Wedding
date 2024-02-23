@@ -1,0 +1,333 @@
+.header {
+  background: transparent linear-gradient(54deg, #F2F1ED 0%, #DDE1E2 57%, #E2E5EA 100%) 0% 0% no-repeat padding-box;
+  max-height: 930px;
+}
+.wedding {
+  font-family: var(--font-lastochka);
+  color: var(--gold);
+  font-size: 190px;
+  display: flex;
+  justify-content: center;
+}
+
+.name {
+  font-size: 43px;
+  display: flex;
+  justify-content: center;
+  margin-top: -20px;
+  color: var(--pale);
+}
+
+.foto {
+  display: flex;
+  justify-content: center;
+}
+
+.picture {
+  max-width: 464px;
+  height: auto;
+  margin-top: 50px;
+}
+
+
+.welcome__img {
+  background-image: url('./images/contur.png');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 700px;
+  top: -230px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+}
+
+.welcome__title {
+  text-align: center;
+  color: #2E2E2E;
+  font-size: 52px;
+  letter-spacing: -3.64px;
+}
+
+.welcome__text {
+  text-align: center;
+  color: #141414;
+  letter-spacing: -0.8px;
+  font-size: 32px;
+}
+
+
+.we {
+  margin-top: -200px;
+}
+
+.we__date {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.we__title {
+  text-align: center;
+  font-size: 90px;
+  color: #5E5D59;
+}
+
+.calendar__list-day {
+  margin-top: 20px;
+}
+
+.ww__date {
+  text-align: center;
+  font-size: 154px;
+  color: var(--gold);
+  font-family: var(--font-lastochka);
+}
+
+.list__day::after {
+  content: "";
+  border: 2px solid #707070;
+  width: 538px;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.list__day {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 55px;
+}
+
+.day {
+  font-size: 25px;
+  color: #c5b7a2;
+}
+
+.calendar {
+  margin-top: 30px;
+}
+
+.calendar__images {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.calendar__images::after {
+  content: "";
+  position: absolute;
+  border: 2px solid var(--gold);
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  bottom: 64px;
+  left: 5px;
+  right: 0;
+  margin: auto;
+}
+
+.data__wedding {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 100px;
+  color: var(--text);
+  margin-top: 100px;
+}
+
+.data__img {
+  display: flex;
+  justify-content: center;
+}
+
+.ring__img {
+  width: 700px;
+  height: 700px;
+}
+
+.program {
+  margin-top: 100px;
+}
+
+.program__title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 64px;
+  letter-spacing: -1.6px;
+  line-height: 74px;
+}
+
+.collection__wrapper {
+  display: grid;
+  justify-content: center;
+  justify-items: start;
+  margin-top: 30px;
+}
+
+.collection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 55px;
+}
+
+.collection__line {
+  width: 70px;
+  height: 0;
+  border: 2px solid var(--gold);
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  gap: 10px;
+}
+
+.addtess__title {
+  font-size: 54px;
+  letter-spacing: -1.35px; 
+  text-align: center;
+}
+
+.address__text {
+  font-size: 24px;
+  color: var(--gold);
+  letter-spacing: -0.6px;
+  text-align: center;
+}
+
+.dress__title {
+  text-align: center;
+  font-size: 64px;
+  letter-spacing: -1.6px;
+  margin-top: 50px;
+}
+
+.dress__text {
+  text-align: center;
+  letter-spacing: -0.85px;
+  font-size: 34px;
+  margin-top: 25px;
+  line-height: 42px;
+}
+
+.girls {
+  text-align: center;
+  color: var(--gold);
+  font-size: 50px;
+  letter-spacing: -1.25px;
+  margin-top: 35px;
+
+}
+
+.color__list {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+.color__item1 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #CCB89D;
+  margin-left: -30px;
+}
+.color__item2 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #6A584C;
+  margin-left: -30px;
+}
+.color__item3 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #412F25;
+  margin-left: -30px;
+}
+.color__item4 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #809670;
+  margin-left: -30px;
+}
+.color__item5 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #879681;
+  margin-left: -30px;
+}
+
+.dress__boy {
+  margin-top: 50px;
+}
+
+.boy {
+  text-align: center;
+  color: var(--gold);
+  font-size: 50px;
+  letter-spacing: -1.25px;
+}
+
+.color-boy__list {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.color-boy__item1 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  margin-left: -30px;
+  border: 1px solid #707070;
+}
+.color-boy__item2 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #000000;
+  margin-left: -30px;
+}
+
+.presence__title {
+  text-align: center;
+  font-size: 64px;
+  letter-spacing: -1.6px;
+  color: var(--gold);
+  line-height: 60px;
+  margin-top: 50px;
+}
+
+.presence__img {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+  cursor: pointer;
+}
+
+.link__vk {
+  transition: all .90s ease;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
