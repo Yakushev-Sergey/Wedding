@@ -28,11 +28,11 @@ img {
 }
 
 @font-face {
-  font-family: 'Lastochka, arial';
+  font-family: 'Lastochka';
   src: url('./font/Lastochka.ttf');
 }
 
 @font-face {
-  font-family: 'Viaoda Libre, arial';
+  font-family: 'Viaoda Libre';
   src: url('./font/ViaodaLibre-Regular.ttf');
 }
