@@ -29,10 +29,12 @@ img {
 
 @font-face {
   font-family: 'Lastochka', arial;
-  src: url('./font/Lastochka.ttf');
+  src: url('./font/Lastochka.ttf') format('ttf');
+  src: url('./font/Lastochka.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Viaoda Libre', arial;
-  src: url('./font/ViaodaLibre-Regular.ttf');
+  src: url('./font/ViaodaLibre-Regular.woff') format('woff');
+  src: url('./font/ViaodaLibre-Regular.ttf') format('ttf');
 }
