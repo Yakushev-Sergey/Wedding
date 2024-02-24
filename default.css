@@ -15,7 +15,7 @@
 
 
 body { 
-  font-family: var(--font-viaoda);
+  font-family: 'Viaoda Libre', arial;
   color: var(--text);
   font-size: 32px;
   overflow-x: hidden;
