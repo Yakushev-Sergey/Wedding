@@ -6,6 +6,7 @@ gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
     content: '.content',
     smooth: 1.5,
     effects: true, 
+    preventDefault: true
   })
 
   gsap.fromTo('.header', {opacity: 1}, {
