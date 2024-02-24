@@ -3,7 +3,7 @@
   max-height: 930px;
 }
 .wedding {
-  font-family: 'Viaoda Libre', arial;
+  font-family: 'Lastochka', arial;
   color: var(--gold);
   font-size: 190px;
   display: flex;
@@ -89,7 +89,7 @@
   text-align: center;
   font-size: 154px;
   color: var(--gold);
-  font-family: 'Viaoda Libre', arial;
+  font-family: 'Lastochka', arial;
 }
 
 .list__day::after {
