@@ -4,7 +4,6 @@
 }
 .wedding {
   font-family: 'Lastochka', arial;
-  -moz-font-feature-settings: normal;
   color: var(--gold);
   font-size: 190px;
   display: flex;
