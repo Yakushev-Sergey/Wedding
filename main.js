@@ -7,7 +7,6 @@ gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
     smooth: 1.5,
     effects: true,
     ignoreMobileResize: true,
-    smoothTouch: 0.1,
   })
 
   gsap.fromTo('.header', { opacity: 1 }, {
