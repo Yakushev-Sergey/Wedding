@@ -26,6 +26,7 @@ gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
     gsap.fromTo(item, { opacity: 0, x: -150 }, {
       opacity: 1, x: 0,
       scrollTrigger: {
+        invalidateOnRefresh: true,
         trigger: item,
         start: 'top 90%',
         end: 'bottom 55%',
@@ -41,6 +42,7 @@ gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
     gsap.fromTo(item, { opacity: 0, x: 150 }, {
       opacity: 1, x: 0,
       scrollTrigger: {
+        invalidateOnRefresh: true,
         trigger: item,
         start: 'top 90%',
         end: 'bottom 55%',
