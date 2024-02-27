@@ -28,7 +28,7 @@ gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
         invalidateOnRefresh: true,
         trigger: item,
         start: 'top 90%',
-        end: 'bottom 45%',
+        end: 'bottom 60%',
         scrub: true
       }
     })

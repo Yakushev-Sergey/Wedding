@@ -12,10 +12,7 @@
   --pale: #707070;
 }
 
-html {
-  height: 100%;
-  overflow: auto;
-}
+
 
  body { 
   font-family: 'Viaoda Libre', arial;
