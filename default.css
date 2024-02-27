@@ -17,7 +17,7 @@
   font-family: 'Viaoda Libre', arial;
   color: var(--text);
   font-size: 32px;
-  overflow-x: hidden;
+  overflow-x: auto;
 }
 
 img {
