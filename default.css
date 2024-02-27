@@ -12,14 +12,12 @@
   --pale: #707070;
 }
 
-html {
-  overflow-x: hidden;
-}
 
- body { 
+ html, body { 
   font-family: 'Viaoda Libre', arial;
   color: var(--text);
   font-size: 32px;
+  overflow-x: hidden;
 }
 
 img {
