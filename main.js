@@ -2,6 +2,9 @@ gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
 
 if (ScrollTrigger.isTouch !== 1) {
+
+  ScrollTrigger.normalizeScroll(true);
+
   ScrollSmoother.create({
     wrapper: '.wrapper',
     content: '.content',
