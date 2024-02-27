@@ -12,9 +12,6 @@
   --pale: #707070;
 }
 
-.wrapper {
-  overflow-x: hidden;
-}
 
 
 html, body { 
@@ -22,6 +19,7 @@ html, body {
   color: var(--text);
   font-size: 32px;
   overflow-x: hidden;
+  overflow-y: auto;
 }
 
 img {
