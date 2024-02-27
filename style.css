@@ -38,6 +38,7 @@
   height: 700px;
   top: -230px;
 width: 100%;
+overflow-x: hidden;
 }
 
 .text {
