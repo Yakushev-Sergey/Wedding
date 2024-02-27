@@ -2,12 +2,14 @@ gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
 
   ScrollSmoother.create({
+    wrapper: '.wrapper',
+    content: '.content',
     smooth: 1.5,
     effects: true,
     preventDefault: true
   })
 
-  gsap.fromTo('.header', { opacity: 1 }, {
+  gsap.from('.header', { opacity: 1 }, {
     opacity: 0,
     scrollTrigger: {
       trigger: '.header',
@@ -19,7 +21,7 @@ gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
   let itemL = gsap.utils.toArray('.left')
   itemL.forEach(item => {
-    gsap.fromTo(item, { opacity: 0, x: -100 }, {
+    gsap.from(item, { opacity: 0, x: -100 }, {
       opacity: 1, x: 0,
       scrollTrigger: {
         trigger: item,
@@ -37,7 +39,7 @@ gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
       scrollTrigger: {
         trigger: item,
         start: '-900',
-        end: '-300',
+        end: '-400',
         scrub: true
       }
     })
