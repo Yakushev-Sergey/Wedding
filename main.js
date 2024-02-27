@@ -1,9 +1,9 @@
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
+// ScrollTrigger.config({ ignoreMobileResize: true });
+// ScrollTrigger.normalizeScroll(true);
 
+if (ScrollTrigger.isTouch === 1) {
 
-if (ScrollTrigger.isTouch !== 1) {
-
-  ScrollTrigger.normalizeScroll(true);
 
   ScrollSmoother.create({
     wrapper: '.wrapper',
