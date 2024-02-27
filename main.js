@@ -1,7 +1,7 @@
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
 
-if (ScrollTrigger.isTouch !== 1) {
+if (ScrollTrigger.isTouch !== 2) {
   ScrollSmoother.create({
     wrapper: '.wrapper',
     content: '.content',
@@ -26,8 +26,8 @@ if (ScrollTrigger.isTouch !== 1) {
       opacity: 1, x: 0,
       scrollTrigger: {
         trigger: item,
-        start: '-1050',
-        end: '0',
+        start: '-900',
+        end: '-300',
         scrub: true
       }
     })
@@ -39,8 +39,8 @@ if (ScrollTrigger.isTouch !== 1) {
       opacity: 1, x: 0,
       scrollTrigger: {
         trigger: item,
-        start: '-1050',
-        end: '0',
+        start: '-900',
+        end: '-300',
         scrub: true
       }
     })
