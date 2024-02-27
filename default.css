@@ -20,6 +20,7 @@ html, body {
   font-size: 32px;
   max-width: 100%;
   overflow-x: hidden;
+  overflow-y: auto;
 }
 
 img {
