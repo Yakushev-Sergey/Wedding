@@ -1,7 +1,6 @@
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
 
-if (ScrollTrigger.isTouch !== 2) {
   ScrollSmoother.create({
     wrapper: '.wrapper',
     content: '.content',
@@ -45,5 +44,4 @@ if (ScrollTrigger.isTouch !== 2) {
       }
     })
   })
-}
 
