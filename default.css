@@ -13,7 +13,7 @@
 }
 
 
- html, body { 
+body { 
   font-family: 'Viaoda Libre', arial;
   color: var(--text);
   font-size: 32px;
