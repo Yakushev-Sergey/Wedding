@@ -2,8 +2,6 @@ gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
 
   ScrollSmoother.create({
-    wrapper: '.wrapper',
-    content: '.content',
     smooth: 1.5,
     effects: true,
     preventDefault: true
@@ -19,29 +17,29 @@ gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
     }
   })
 
-  // let itemL = gsap.utils.toArray('.left')
-  // itemL.forEach(item => {
-  //   gsap.fromTo(item, { opacity: 0, x: -100 }, {
-  //     opacity: 1, x: 0,
-  //     scrollTrigger: {
-  //       trigger: item,
-  //       start: '-900',
-  //       end: '-300',
-  //       scrub: true
-  //     }
-  //   })
-  // })
+  let itemL = gsap.utils.toArray('.left')
+  itemL.forEach(item => {
+    gsap.fromTo(item, { opacity: 0, x: -100 }, {
+      opacity: 1, x: 0,
+      scrollTrigger: {
+        trigger: item,
+        start: '-900',
+        end: '-300',
+        scrub: true
+      }
+    })
+  })
 
-  // let itemR = gsap.utils.toArray('.right')
-  // itemR.forEach(item => {
-  //   gsap.fromTo(item, { opacity: 0, x: 100 }, {
-  //     opacity: 1, x: 0,
-  //     scrollTrigger: {
-  //       trigger: item,
-  //       start: '-900',
-  //       end: '-300',
-  //       scrub: true
-  //     }
-  //   })
-  // })
+  let itemR = gsap.utils.toArray('.right')
+  itemR.forEach(item => {
+    gsap.fromTo(item, { opacity: 0, x: 100 }, {
+      opacity: 1, x: 0,
+      scrollTrigger: {
+        trigger: item,
+        start: '-900',
+        end: '-300',
+        scrub: true
+      }
+    })
+  })
 
