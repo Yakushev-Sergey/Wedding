@@ -6,7 +6,6 @@ gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
     content: '.content',
     smooth: 1.5,
     effects: true,
-    normalizeScroll: true,
     ignoreMobileResize: true,
     smoothTouch: 0.1,
   })
@@ -24,7 +23,7 @@ gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
   
   let itemL = gsap.utils.toArray('.left')
   itemL.forEach(item => {
-    gsap.fromTo(item, { opacity: 0, x: -100 }, {
+    gsap.fromTo(item, { opacity: 0, x: -150 }, {
       opacity: 1, x: 0,
       scrollTrigger: {
         trigger: item,
@@ -39,7 +38,7 @@ gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
   let itemR = gsap.utils.toArray('.right')
   itemR.forEach(item => {
-    gsap.fromTo(item, { opacity: 0, x: 100 }, {
+    gsap.fromTo(item, { opacity: 0, x: 150 }, {
       opacity: 1, x: 0,
       scrollTrigger: {
         trigger: item,
