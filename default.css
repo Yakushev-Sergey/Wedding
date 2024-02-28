@@ -18,9 +18,8 @@ html, body {
   font-family: 'Viaoda Libre', arial;
   color: var(--text);
   font-size: 32px;
-  max-width: 100%;
   overflow-x: hidden;
-  overflow-y: auto;
+  overflow-y: scroll;
 }
 
 img {
